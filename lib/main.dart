@@ -125,7 +125,7 @@ class FavoritesPage extends StatelessWidget {
         for (var fav in appState.favorites)
           ListTile(
             leading: Icon(Icons.favorite),
-            title: Text(pair.asLowerCase),
+            title: Text(fav.asLowerCase),
           )
       ],
     );
